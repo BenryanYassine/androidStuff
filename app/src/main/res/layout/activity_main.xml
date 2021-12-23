@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/Thevideo_view"
+        android:layout_width="422dp"
+        android:layout_height="357dp"
+        app:surface_type="texture_view" />
+    <TextureView
+        android:id="@+id/textures_view"
+        android:layout_width="422dp"
+        android:layout_height="357dp"
+        android:layout_marginTop="360dp">
+
+    </TextureView>
+
+</FrameLayout>
